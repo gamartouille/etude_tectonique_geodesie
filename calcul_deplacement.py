@@ -39,10 +39,9 @@ def it20TOet20(lon, lat, h) :
 
 if __name__=='__main__' :
 
-    path_2015 = pass
-    path_2020 = pass
-    coords_2015 = pd.read_csv(path, sep = ';', header=none)
-    coords_2020 = pd.read_csv(path, sep = ';', header=none)
+    path = 'D:\Documents\Garance_Geodesie\etude_tectonique_geodesie\calcul_station.csv'
+    coords = pd.read_csv(path, sep = ';', header=none)
+
 
 
 
